@@ -22,7 +22,7 @@ int main() {
     printf("This is a hold LMB macro for windows.\n");
     printf("Default binding in order to toggle the macro on or off is F7.");
     printf("Default binding for closing down the executable is F8");
-    // Register F6 as a global hotkey
+    // Register F7 as a global hotkey
     RegisterHotKey(NULL, 1, 0, VK_F7);
     RegisterHotKey(NULL, 2, 0, VK_F8);
 
